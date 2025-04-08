@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def eval_disparate_impact(x_test_priv_col, y_pred, unpriv_group_val=0, favourable_outcome=1):
   df = pd.DataFrame({
