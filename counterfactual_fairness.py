@@ -1,3 +1,4 @@
+import pandas as pd
 from sklearn.preprocessing import StandardScaler
 def evaluate_counterfactual_fairness_sex(model, X):
     """
